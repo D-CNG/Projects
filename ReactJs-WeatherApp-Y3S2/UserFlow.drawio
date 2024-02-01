@@ -1,0 +1,169 @@
+<mxfile host="app.diagrams.net" modified="2023-09-17T06:58:25.144Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="BTdcqv_5s9vftroQtCsO" version="21.7.2" type="device">
+  <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
+    <mxGraphModel dx="1647" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" style=";html=1;" />
+        <mxCell id="1" style=";html=1;" parent="0" />
+        <mxCell id="1672d66443f91eb5-23" value="Title" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="120" y="40" width="1510" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="50I8fF2DZxENthSsWfUr-1" target="50I8fF2DZxENthSsWfUr-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="855" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-17" value="User wants to use &lt;br&gt;a different function" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="50I8fF2DZxENthSsWfUr-2">
+          <mxGeometry x="-0.0147" y="-3" relative="1" as="geometry">
+            <mxPoint x="-4" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="50I8fF2DZxENthSsWfUr-1" target="50I8fF2DZxENthSsWfUr-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="595" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="595" />
+              <mxPoint x="490" y="596" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-26" value="User wants to view &lt;br&gt;weather of saved location" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="50I8fF2DZxENthSsWfUr-23">
+          <mxGeometry x="0.1209" y="-3" relative="1" as="geometry">
+            <mxPoint x="8" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="50I8fF2DZxENthSsWfUr-1" target="50I8fF2DZxENthSsWfUr-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-1" value="Current Weather" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="620" y="570" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="50I8fF2DZxENthSsWfUr-4" target="50I8fF2DZxENthSsWfUr-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1043" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-20" value="User wants weather&amp;nbsp;&lt;br&gt;of other locations" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="50I8fF2DZxENthSsWfUr-5">
+          <mxGeometry x="0.0112" y="-3" relative="1" as="geometry">
+            <mxPoint y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="50I8fF2DZxENthSsWfUr-4" target="50I8fF2DZxENthSsWfUr-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="957" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-16" value="User wants to&amp;nbsp;&lt;br&gt;edit favourites" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;" vertex="1" connectable="0" parent="50I8fF2DZxENthSsWfUr-6">
+          <mxGeometry x="-0.1376" y="4" relative="1" as="geometry">
+            <mxPoint x="-19" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-4" value="Menu" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="880" y="570" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="50I8fF2DZxENthSsWfUr-8" target="50I8fF2DZxENthSsWfUr-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-21" value="User Searches&lt;br&gt;&amp;nbsp;Location" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;" vertex="1" connectable="0" parent="50I8fF2DZxENthSsWfUr-19">
+          <mxGeometry x="-0.0466" y="-2" relative="1" as="geometry">
+            <mxPoint x="-23" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-8" value="Search Bar" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="570" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="50I8fF2DZxENthSsWfUr-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1215" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-22" value="User wants to &lt;br&gt;save location" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;" vertex="1" connectable="0" parent="50I8fF2DZxENthSsWfUr-12">
+          <mxGeometry x="0.0976" relative="1" as="geometry">
+            <mxPoint x="-25" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-11" value="Search-results" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="710" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-15" value="User wants to check&lt;br&gt;&amp;nbsp;future weather" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-89;" vertex="1" parent="1">
+          <mxGeometry x="590" y="670" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="50I8fF2DZxENthSsWfUr-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-32" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="50I8fF2DZxENthSsWfUr-31">
+          <mxGeometry x="-0.0078" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="50I8fF2DZxENthSsWfUr-30" target="50I8fF2DZxENthSsWfUr-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-34" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="50I8fF2DZxENthSsWfUr-33">
+          <mxGeometry x="-0.1894" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-30" value="Has user allowed location?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="612.5" y="370" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="50I8fF2DZxENthSsWfUr-36" target="50I8fF2DZxENthSsWfUr-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-36" value="Request for location access" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="870" y="385" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-41" value="Add location&lt;br&gt;&amp;nbsp;to favourite&#39;s" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1142.5" y="840" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="50I8fF2DZxENthSsWfUr-42" target="50I8fF2DZxENthSsWfUr-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="50I8fF2DZxENthSsWfUr-42" target="50I8fF2DZxENthSsWfUr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-42" value="Click on &lt;br&gt;favourite&#39;s tab" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="872.5" y="760" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-43" value="Displays Favourites" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="880" y="910" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="50I8fF2DZxENthSsWfUr-46" target="50I8fF2DZxENthSsWfUr-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-57" value="User wants to check &lt;br&gt;future weather" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;" vertex="1" connectable="0" parent="50I8fF2DZxENthSsWfUr-55">
+          <mxGeometry x="-0.4273" relative="1" as="geometry">
+            <mxPoint x="-20" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-46" value="Weather of Saved locations" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="570" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-47" value="User Swipes across" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="555" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.069;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="50I8fF2DZxENthSsWfUr-46" target="50I8fF2DZxENthSsWfUr-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-50" value="Forecast Data" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="362.5" y="850" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="50I8fF2DZxENthSsWfUr-53" target="50I8fF2DZxENthSsWfUr-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="50I8fF2DZxENthSsWfUr-53" value="User Scrolls down" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="720" width="145" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

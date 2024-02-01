@@ -1,0 +1,164 @@
+<!--HTML:
+
+Submitted URL works
+5 web pages are implemented with an appropriate hierarchical structure
+HTML is valid and well-formed 
+HTML elements are well chosen, and use structural elements and attributes where possible
+HTML is comprehensively commented-->
+<DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <title>Home</title>
+				<script src="javascript/main.js"></script>
+        <meta charset="utf-8">
+        <meta name="description" content="DD home">
+        <meta name="author" content="DCNG002">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="refresh" content="600">
+        <meta name="keywords" content="debate,singapore,society,magazine,news">
+        <link rel="stylesheet" href="stylesheets/main.css">
+	</head>
+	
+	<header>
+		<!--font size AAA html-->
+		<p style = "float: right ">
+			<span class ="small" id="smallA">A</span>
+			<span class ="medium" id="mediumA">A</span>
+			<span class ="large" id="largeA">A</span>
+		</p>
+		
+		<a id= logo href= index.html><img src="images/logo.png" alt="Debate Daily" width="180" height="90" align="middle"></a>
+		
+		<br>
+		
+		<!--main navigation html-->
+		<div class="topnav" >
+		<label for ="toggle">&#9776;</label>
+			<a href="index.html">Home</a>
+			<a href="featured.html">Featured</a>
+			<a href="event.html">Events</a>
+			<a href="register.html">Register</a>
+			<a href="more.html">More</a>
+	
+		</div>
+		
+	</header>	
+	
+	<body>
+		
+	<!--slideshow html-->
+	<div class="main">
+		<div class="slideshow-container">
+
+		<div class="mySlides fade">
+			<div class="numbertext">1 / 3</div>
+			<a href =featured.html><img src="images/index1.jpg" alt="Prime Minister Boris Johnson speaking to members of the public waiting to receive a Covid-19 vaccine at the Lakeland Forum Covid-19 vaccination centre" style="width:100%"></a>
+			<div class="text"> Prime Minister Boris Johnson speaking to members of the public waiting to receive a Covid-19 vaccine at the Lakeland Forum Covid-19 vaccination centre</div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">2 / 3</div>
+			<a href =featured.html><img src="images/index2.jpg" alt="Mr John Kerry is to participate in the Ministerial on Climate Action" style="width:100%"></a>
+			<div class="text">Mr John Kerry is to participate in the Ministerial on Climate Action</div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">3 / 3</div>
+			<a href =featured.html><img src="images/index3.jpg" alt="Protesters in Yangon on March 25, 2021" style="width:100%"></a>
+			<div class="text">Protesters in Yangon on March 25, 2021</div>
+		</div>
+			
+		<!--html calling java function to change slide-->
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		</div>
+		
+		<br>
+		<!--dots below slideshow-->
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span> 
+			<span class="dot" onclick="currentSlide(2)"></span> 
+			<span class="dot" onclick="currentSlide(3)"></span> 
+		</div>
+
+	</div>
+
+	
+
+	<!--side by side table for latest/ popoular news-->
+	<div class="indexsidebysideTable">
+		<div class="column">
+			<table>
+				<tr>
+					<th>LATEST</th>
+				</tr>
+				<tr>
+					<td><a href= https://www.straitstimes.com/world/united-states/top-military-officers-from-us-allies-to-condemn-violence-by-myanmar-security>
+						<img src="images/latest1.jpg" alt="Myanmar protest" style="width:100%"></a>
+						<p>Top officers from 12 countries condemn the use of force by Myanmar's military post reports of high death count.</p>
+						<p>"As Chiefs of Defence, we condemn the use of lethal force against unarmed people by the Myanmar Armed Forces and associated security services" </p></td>
+				</tr>
+				<tr>
+					<td><a href= https://www.straitstimes.com/asia/east-asia/china-announces-sanctions-on-individuals-entities-in-us-canada><img src="images/latest2.jpg" alt="China flag" style="width:100%"></a>
+						<p>Canadian PM Trudeau calls Chinese sanctions over XinJiang 'unacceptable'</p>
+					<p>“We will continue to defend human rights around the world with our international partners”</p></td>
+				</tr>
+				<tr>
+					<td><a href= https://www.straitstimes.com/world/mexico-says-covid-19-deaths-likely-60-per-cent-higher-than-confirmed-toll><img src="images/latest3.jpg" alt="Ambulance" style="width:100%"></a>
+						<p>Mexico's real number of Covid-19 deaths was likely significantly higher than the confirmed toll.</p>
+					<p>Table published by Mexico's Health Ministry showed that by the end of the sixth week of this year, 294,287 fatalities "associated with Covid-19" had been registered on death certificates in Mexico.</p></td>
+				</tr>
+			</table>
+		</div>
+		<div class="column">
+			<table>
+				<tr>
+					<th>POPULAR</th>
+				</tr>
+				<tr>
+					<td><a href= https://www.rollingstone.com/culture/culture-features/atlanta-spa-shootings-asian-women-sex-addiction-1146368/ ><img src="images/featured%201.jpg" alt="Gold Spa Parlor"  style="width:100%"></a>
+					<p>Gold Spa, one of three Asian-owned massage parlors in the Atlanta area that were targeted by a white shooter.</p>
+					<p>During the Atlanta massage parlor shootings, eight people were murdered. Statement made by the shooter, Robert Long had sparked further debate on racial and social issues </p>
+					</td>
+				</tr>
+				<tr>
+					<td><a href= https://www.nbcnews.com/news/asian-america/donations-poured-after-attack-asian-grandmother-she-wants-give-money-n1261921><img src="images/featured%202.jpg" alt="Xiao Zhen Xie"  style="width:100%"></a><p>Xiao Zhen Xie was attacked on Market Street in San Francisco.</p>
+					<p>Asian grandmother want to give back donations towards the Asian American community "to combat racism" </p></td>
+				</tr>
+				<tr>
+					<td><a href= https://www.nytimes.com/2021/03/12/world/europe/uk-sarah-everard.html><img src="images/featured3.jpg" alt="Police officers on Friday near where the body of Sarah Everard was found in Kent, southeast England." style="width:100%"></a>
+						<p>A  police officer was charged late Friday with kidnapping and murdering Sarah Everard, a marketing executive who went missing in South London last week and whose disappearance had touched off a national outcry over violence against women.</p>
+					<p>The Metropolitan Police said that the officer, Wayne Couzens, 48, whose primary role was  patrolling diplomatic premises, would appear in court on Saturday to face the charges. </p></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+	
+	<br>
+	
+	<footer>
+        <table class="contactTable" width = 100%>
+            <th>CONTACT US</th>
+            <th>FOLLOW US</th>
+            <th>LOCATION</th>
+           
+            
+            <tr>
+             <td>Dailydebate@abc.com</td>
+             <td>FB: Debate Daily</td>
+             <td>13 Arguements Rd</td>
+            
+            </tr>
+                
+            <tr>
+             <td>Tel:(123)456-5432</td>
+             <td>Instagram: @DebateDaily </td>
+             <td>United States of America</td>
+            </tr>
+         </table>
+   
+  </footer>
+</html>
