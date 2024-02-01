@@ -1,0 +1,59 @@
+{% extends "./base.html" %}
+{% load bootstrap4 %}
+
+<!-- Profile page -->
+{% block content %}
+
+<h5 class="profiledetails"><b>@{{user_profile.user.username}}</b></h5>
+<div class = "profilepic">
+    <img src="{{user_profile.profileimg.url}}" alt="">
+</div>
+
+<form action="/follow" method="POST">
+    {% csrf_token %}
+    <div class="profiledetails">
+    {% if user_post_length == 0 %}
+        <span><b>No Post</b></span>
+        <!-- number of posts -->
+        {% elif user_post_length == 1 %}
+            <span ><b>{{user_post_length}} Post</b></span>
+            {% else %}
+                <span ><b>{{user_post_length}} Posts</b></span>
+        {% endif %}
+        <!-- number of followers -->
+        {% if user_followers == 0 or user_followers == 1 %}
+        <span ><b>{{user_followers}} follower</b></span>
+
+            {% else %}
+            <span ><b>{{user_followers}} followers</b></span>
+        {% endif %}
+        <!-- number of following -->
+        <span ><b>{{user_following}} following</b></span>
+    </div>
+
+<input type="hidden" value="{{user.username}}" name="follower" />
+<input type="hidden" value="{{user_object.username}}" name="user" />
+
+<!-- show either settings or follow button -->
+{% if user_object.username == user.username %}
+    <a id ="settings" href="/settings/" >Account Settings</a>
+    {% else %}
+        <button type="submit" id='followbtn' >{{button_text}}</button>
+{% endif %}
+
+</form>
+
+<div class="bio">
+    {{user_profile.bio}}
+</div>
+
+
+{% for post in user_posts %}
+<div class = 'gallery'> 
+    <a href="{{post.image.url}}" >
+        <img src="{{post.image.url}}"></a>
+</div>
+{% endfor %}
+
+
+{% endblock %}

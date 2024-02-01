@@ -1,0 +1,27 @@
+{% extends "./base.html" %}
+<!-- home page of application -->
+{% block content %}
+    <br>
+    <div class="following">
+        <b>Following:</b>
+        <table>
+            {% for follow in followings %}
+            <tr>
+                <td><b>{{follow}}</b></td>
+                <td ><button id="chatbtn" onclick = "window.location.href= '/chat/{{follow}}';">chat</button></td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+
+    {% for post in posts reversed %}
+    <div class= "posts">
+        <a href="{{post.image.url}}"><img src="{{post.image.url}}" alt=""></a>
+        <p>
+            <div class = "caption"> <a href="/profile/{{post.user}}"><strong>{{post.user}}</strong> &nbsp;</a>{{post.caption}} </div>
+        </p>
+    </div>
+    {% endfor %}
+
+    
+{% endblock %}

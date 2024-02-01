@@ -1,0 +1,18 @@
+{% extends "./base.html" %}
+{% load bootstrap4 %}
+
+{% block content %}
+
+    <div id="header">
+        <p>Add New Covid Row</p>
+    </div>
+
+    <div id="content">
+        <form action="/create_covid/" method="post" class="form">
+            {% csrf_token %}
+            {% bootstrap_form form %}
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+{% endblock %}

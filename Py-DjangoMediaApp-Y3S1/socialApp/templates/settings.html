@@ -1,0 +1,18 @@
+{% include "./header.html" %}
+<body>
+    
+<!-- page to change bio and profile pic - settings -->
+    <h1>Settings</h1>
+    <button class = "homebtn" onclick = "window.location.href='/home/';">Home </button>
+    <br>
+    <form id="profile_form" method="post" action=""
+            enctype="multipart/form-data">
+
+        {% csrf_token %}
+        
+        {{ profile_form.as_p }}
+
+        <input type="submit" name="submit" value="submit" />
+    </form>
+</body>
+{% include "./footer.html" %}

@@ -1,0 +1,182 @@
+body{
+  background-color: #adc6ddfa;
+}
+/* login page CSS */
+body.loginbck{
+  background-image: url("login.jpg");
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.login {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 50%;
+}
+/* registration page */
+
+.registrationpg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 50%;
+}
+
+/* profile pic icon */
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* navbar css */
+*{box-sizing: border-box;}
+
+.topnav {
+  overflow: hidden;
+  background-color: #a2b9db8a;
+}
+
+.topnav a {
+  margin-top: 10px;
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px ;
+  text-decoration: none;
+  font-size: 25px;
+}
+.topnav a:hover {
+  color: blue;
+}
+
+.topnav .search-container {
+  margin-top: 10px;
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+/* home page css */
+.following{
+  display: block;
+  float: left;
+  margin-left: 10px;
+  width: 20%;
+  font-size: 20px;
+  border-style: solid;
+  padding: 10px;
+  background-color: #ecfbff;
+}
+
+#chatbtn{
+  margin-top: 10px;
+  margin-left:10px;
+  background-color: #777;
+  color: aliceblue;
+}
+
+.homebtn{
+  background-color: #777;
+  color: aliceblue;
+  margin-bottom: 10px;
+  float:left;
+}
+
+.posts {
+  background-color: rgba(255, 255, 255, 0.856);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 50%;
+  position: relative;
+  text-align: left;
+  border-style: solid;
+}
+
+.posts img{
+  height:40%;
+  width: 100%;
+}
+
+/* profile css */
+.profilepic img{
+  height:30%;
+  width: 100%;
+}
+
+.profiledetails {
+  color: black; 
+  font-size: 27px;
+}
+.bio{
+  float: left;
+  width: 30%;
+  height: 30%;
+  background-color: white;
+}
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: right;
+  width: 180px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+#followbtn{
+  background-color: #ffc0cb; 
+  border: #ffc0cb;
+}
+
+
+
+/* Search page CSS */
+
+.result-item {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border-style: solid;
+}
+
+.result-item img{
+  width:100%;
+}

@@ -1,0 +1,21 @@
+<div class="loginbackground">
+{% include "./header.html" %}
+<!-- login page -->
+<body class = 'loginbck'>
+    <div class = 'login'>
+        <h1>Login</h1>
+
+        <form id="login_form" method="post" action="/login/">
+            {% csrf_token %}
+            Username: <input type="text" name="username" value="" size="50" />
+            <br>
+            Password: <input type="password" name="password" value="" size="50" />
+            <br>
+            <input id = "submitbtn" type="submit" value="login" />
+        </form>
+
+        Not registered? <a href="/register/" class=""> Create a account </a></p>
+    </div>
+</body>
+{% include "./footer.html" %}
+</div>

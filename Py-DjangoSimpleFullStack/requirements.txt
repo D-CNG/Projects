@@ -1,0 +1,12 @@
+asgiref==3.7.2
+beautifulsoup4==4.12.2
+Faker==22.0.0
+pip==23.2.1
+pytz==2023.3.post1
+six==1.16.0
+soupsieve==2.5
+sqlparse==0.4.4
+tzdata==2023.4
+djangorestframework==3.14.0
+factory-boy==3.3.0
+bootstrap4==23.4

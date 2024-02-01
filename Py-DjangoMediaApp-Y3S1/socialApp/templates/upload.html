@@ -1,0 +1,13 @@
+{% include "./header.html" %}
+<!-- page that accepts users upload -->
+<body>
+    <h1>Upload</h1>
+    <button class = "homebtn" onclick = "window.location.href='/home/';">Home </button>
+    <br>
+    <form method = "post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Upload</button>
+    </form>
+</body>
+{% include "./footer.html" %}

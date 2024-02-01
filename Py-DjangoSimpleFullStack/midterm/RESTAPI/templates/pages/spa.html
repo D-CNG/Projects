@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Covid Data Web App">
+        <meta name="keywords" content="HTML,EESTAPI,covid,statistics,advanced web dev">
+        <meta name="author" content="D.C">
+        <link rel="stylesheet" type="text/css" href="../static/css/covid.css">
+        <script src="../static/js/script.js"></script>
+    </head>
+
+    <body onload="initialisePage()">
+
+        <div id="header">
+            <p>COVID STATS WEB APP</p>
+        </div>
+        
+        <div id="admin-details">
+            <p>
+                <a href="/admin">Admin site</a><br>
+                <b>Admin login details</b><br>
+                User: admin<br>
+                Password: pass123
+            </p>
+        </div>
+
+        <div id="content">
+            <table>
+
+                <tr id="table-head">
+                    <th>GENERIC URLS</th>
+                    <th>INTERESTING RESTFUL LINKS</th>
+                    <th>API output</th>
+                    <th>LINK RETURN</th>
+                </tr>
+
+                <tr id="phase-row">
+                    <td>"/api/phase"</td>
+                    <td>
+                        <a href="/api/phase">Phase</a>
+                    </td>
+                    <td>
+                        <div id ="phases-display"><p>phase menu not loaded</p></div>
+                    </td>
+                    <td>
+                        Returns list of phases
+                    </td>
+                    
+                    </div>
+                </tr>
+
+                <tr id="date-row">
+                    <td>"/api/date"</td>
+                    <td><a href="/api/date">Date</a></td>
+                    <td>
+                        <div id ="date-display"><p>date range not loaded</p></div>
+                    </td>
+                    <td>
+                        Returns earliest and latest date of data available in database
+                    </td>
+                </tr>
+
+                <tr id="covid-row">
+                    <td>"api/covid/&lt;str:pk&gt;"</td>
+                    <td><a href="/api/covid/2021-10-11">Covid Stats</a></td>
+                    <td>
+                        <div id ="covid-display"><p>covid data not loaded</p></div>
+                    </td>
+                    <td>
+                        Returns details regarding spread of covid
+                    </td>
+                </tr>
+
+                <tr id="hospital-row">
+                    <td>"api/hospital/&lt;str:pk&gt;"</td>
+                    <td><a href="/api/hospital/2021-10-11">Hospital Stats</a></td>
+                    <td>
+                        <div id ="hospital-display"><p>hospital data not loaded</p></div>
+                    </td>
+                    <td>
+                        Returns details of hospitalisation due to covid
+                    </td>
+                </tr>
+
+                <tr id="list-row">
+                    <td>"api/list/&lt;str:pk&gt;"</td>
+                    <td><a href="/api/list/2021-10-11">Detailed List</a></td>
+                    <td>
+                        <div id ="list-display"><p>list data not loaded</p></div>
+                    </td>
+                    <td>
+                        Returns list of both covid and related hospitalisation data from a given date
+                    </td>
+                </tr>
+
+                <tr id="stats-row">
+                    <td>"api/stats/&lt;str:model&gt;/&lt;str:column&gt;"</td>
+                    <td><a href="/api/stats/CovidStats/positive">Statistics</a></td>
+                    <td>
+                        <div id ="stat-display"><p>stat data not loaded</p></div>
+                    </td>
+                    <td>
+                        Returns min, max, sum and average of given column from given dataset as long as its available
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="create-forms">
+            <p>Additional functions</p>
+            <a href="/create_phase/">Add Phase Entry</a>
+            <a href="/create_covid/">Add Covid Entry</a>
+            <a href="/create_hospital/">Add Hospital Entry</a>
+
+        </div>
+
+        <div id="footer">
+            <p> 
+                Original data can be found:
+                <a href="https://data.world/hxchua/covid-19-singapore">Data link</a> 
+            </p>
+            <p>Author: D.C</p>
+        </div>
+
+    </body>
+</html>
+
+

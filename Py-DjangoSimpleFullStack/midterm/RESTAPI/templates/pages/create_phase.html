@@ -1,0 +1,29 @@
+{% extends "./base.html" %}
+{% load bootstrap4 %}
+
+{% block content %}
+    <div id = "header">
+        <p> Current Phases </p>
+    </div>
+    
+    <table>
+        <tr><th>Phase Names</th></tr>
+        {% for phase in phases %}
+        <tr><td>{{ phase }}</td></tr>
+        {% endfor %}
+    </table>
+
+
+    <div id="header">
+        <p>Add New Phase</p>
+    </div>
+
+    <div id="content">
+        <form action="/create_phase/" method="post" class="form">
+            {% csrf_token %}
+            {% bootstrap_form form %}
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "./base.html" %}
+{% load bootstrap4 %}
+
+{% block content %}
+    <div id="header">
+        <p>Add New Hopsital Stat</p>
+    </div>
+
+    <div id="content">
+        <form action="/create_hospital/" method="post" class="form">
+            {% csrf_token %}
+            {% bootstrap_form form %}
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+{% endblock %}

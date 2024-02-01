@@ -1,0 +1,17 @@
+{% extends "./base.html" %}
+{% load bootstrap4 %}
+
+<!-- search results page -->
+{% block content %}
+
+    <h4 >Results:</h4>
+    <br>
+    <div class = 'results'>
+    {% for users in username_profile_list %}
+        <div class = 'result-item'>
+            <a href="/profile/{{users.user}}"><img class="image" src="{{users.profileimg.url}}"></a>
+            <h4><a href="/profile/{{users.user}}"><b>@{{users.user}}</b></a></h4>
+        </div>
+    {% endfor %}
+    </div>
+{% endblock %}

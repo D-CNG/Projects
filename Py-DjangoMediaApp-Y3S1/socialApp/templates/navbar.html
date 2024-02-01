@@ -1,0 +1,17 @@
+<header>
+ <!--navigation bar of webapges --> 
+<h1>Welcome to the connect app</h1>
+  <div class="topnav">
+    <a href = "/profile/{{user_profile.user.username}}"><img src = "{{user_profile.profileimg.url}}" alt="Avatar" class="avatar"></li></a>
+    <a href="/home/">Home</a>
+    <a href="/upload/">Upload </a>
+    <div class="search-container">
+      <form action="/search/" method="POST">
+        {% csrf_token %}
+                <input type="text" name="username" placeholder="Search for username..">&nbsp; &nbsp;
+                <button type="submit" ><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+    <a href="/login/">Logout</a>
+  </div>
+</header>

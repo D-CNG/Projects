@@ -1,0 +1,44 @@
+{% load bootstrap4 %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Connect App Website">
+    <meta name="keywords" content="HTML,social,advanced,web,development">
+    <meta name="author" content="D.Cng">
+    {% bootstrap_css %}
+    {% bootstrap_javascript jquery='full' %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/connect.css">
+    <script src="../static/js/spa.js"></script>
+</head>
+
+<body onload="initialisePage()">
+    <h1>Welcome to the connect app</h1>
+      <div class="topnav">
+        <div id="avatar">
+        NO AVATAR PIC
+        </div>
+        <a href="/home/">Home</a>
+        <a href="/upload/">Upload </a>
+        <div class="search-container">
+          <form action="/search/" method="POST">
+            {% csrf_token %}
+                    <input type="text" name="username" placeholder="Search for username..">&nbsp; &nbsp;
+                    <button type="submit" ><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+        <a href="/">Logout</a>
+      </div>
+
+      <div class= "posts">
+        <a href="{{post.image.url}}"><img src="{{post.image.url}}" alt=""></a>
+        <p>
+            <div class = "caption"> <a href="/profile/{{post.user}}"><strong>{{post.user}}</strong> &nbsp;</a>{{post.caption}} </div>
+        </p>
+    </div>
+    
+</body>
+
+</html>
